@@ -89,3 +89,13 @@ p{
 .mainContent p{
     font-size: 16px;
 }
+.button:hover {
+    background-color: #91edab;
+}
+
+.button:focus {
+    background-color: #808080;
+}
+.profileContainer:hover{
+    background-color: rgb(244, 246, 249);
+}
