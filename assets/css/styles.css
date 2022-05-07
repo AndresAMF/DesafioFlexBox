@@ -1,0 +1,91 @@
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+.chatContainer{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: 1px solid gray;
+}
+.profileContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 10% 3% 10%;
+    border-bottom: 1px solid gray;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+.profile img{
+    border-radius: 50%;
+    width: 6vh;
+    height: auto;
+}
+.status{
+    opacity: 50%;
+    font-size: 14px;
+}
+.statusContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+.iconsContainer{
+    display: flex;
+    color: gray;
+    margin-right: 10%;
+}
+.iconsContainer i{
+    padding: 0% 30% 0% 0%;
+}
+.newChat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px gray;
+}
+.button{
+    background-color: #A491D2;
+    color: white;
+    padding: 5% 18%;
+    font-size: 1.5em;
+    margin: 10% 0% 10% 0%;
+    text-align: center; 
+    border: none;
+}
+.profile .thumbnail{
+    width: 3.5em;
+}
+.mainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(244, 246, 249);
+    width: 75%;
+}
+.mainContent img{
+    width: 20%;
+    height: auto;
+}
+.mainContent h1{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif !important; 
+    margin: 30px 0px 0px 0px;
+}
+.mainContent p{
+    font-size: 16px;
+}
